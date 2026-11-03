@@ -1,0 +1,24 @@
+name: tugas_kontak
+description: Tugas package Flutter - Kontak, Cari, Profil
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  faker: ^2.2.0
+  intl: ^0.19.0
+  convex_bottom_bar: ^3.2.0
+  dropdown_search: ^6.0.1
+  avatar_glow: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
