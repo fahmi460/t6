@@ -3,11 +3,7 @@ import 'package:faker/faker.dart';
 import 'package:intl/intl.dart';
 
 var fakerKontak = new Faker();
-
-// daftar kategori, dipakai juga di halaman Cari
 List<String> daftarKategori = ["Keluarga", "Teman", "Kerja"];
-
-// data kontak dummy (20 data), dibuat sekali saja
 List<Map<String, dynamic>> dataKontak = List.generate(20, (index) {
   return {
     "nama": fakerKontak.person.name(),
@@ -19,7 +15,6 @@ List<Map<String, dynamic>> dataKontak = List.generate(20, (index) {
   };
 });
 
-// mengubah tanggal menjadi format Indonesia, contoh: 05 September 2026
 String formatTanggal(DateTime tanggal) {
   return DateFormat("dd MMMM yyyy", "id_ID").format(tanggal);
 }
