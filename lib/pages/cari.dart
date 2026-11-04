@@ -15,7 +15,6 @@ class _CariPageState extends State<CariPage> {
 
   @override
   Widget build(BuildContext context) {
-    // ambil kontak yang kategorinya sama dengan pilihan
     List<Map<String, dynamic>> hasil = [];
     if (kategoriDipilih != null) {
       hasil = dataKontak
