@@ -4,8 +4,7 @@ import './pages/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // supaya tanggal bisa memakai bahasa Indonesia
+  
   await initializeDateFormatting('id_ID', null);
 
   runApp(MyApp());
